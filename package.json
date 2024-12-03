@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "netlify deploy --prod"
+    "build": "netlify deploy --prod",
+    "dev": "nodemon functions/app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "netlify-cli": "^17.38.0",
     "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
